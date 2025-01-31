@@ -1,6 +1,6 @@
 pipeline {
     agent { label 'worker-2' }
-    
+     
     tools {
         maven 'mvn3'
         jdk 'jdk17'
